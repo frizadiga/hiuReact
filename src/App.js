@@ -9,17 +9,17 @@ class App extends Component {
  
   render() {
    const taglineStyle = {
-  marginTop: 64
+  marginTop: 63
   }
     return (
-      <div className="App w3-blue-grey">
-        <div className="App-header w3-container w3-blue-grey">
+      <div className="App w3-black">
+        <div className="App-header w3-container">
           <img src={hiuwave} className="w3-animate-fading" alt="hiuWave" />
           {/*<img src={logo} className="App-logo w3-text-black" alt="logo" />*/}
           <h2>hiuReact</h2>
           <div className="w3-content">
           <input id="text1" className="w3-input w3-center" type="text"/>
-          <button className="w3-button w3-block w3-hover-green w3-large">Try It!</button>
+          <button className="w3-button w3-block w3-hover-red w3-large">Try It!</button>
           </div>
         </div>
           
