@@ -12,9 +12,9 @@ class App extends Component {
   marginTop: 63
   }
     return (
-      <div className="App w3-black">
+      <div className="App w3-black w3-animate-opacity">
         <div className="App-header w3-container">
-          <img src={hiuwave} className="w3-animate-fading" alt="hiuWave" />
+          <img src={hiuwave} className="" alt="hiuWave" />
           {/*<img src={logo} className="App-logo w3-text-black" alt="logo" />*/}
           <h2>hiuReact</h2>
           <div className="w3-content">
