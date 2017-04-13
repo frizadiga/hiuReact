@@ -9,7 +9,7 @@ class App extends Component {
  
   render() {
    const taglineStyle = {
-  marginTop: 63
+  marginTop: 64
   }
     return (
       <div className="App w3-black w3-animate-opacity">
